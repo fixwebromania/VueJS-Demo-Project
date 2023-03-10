@@ -1,0 +1,52 @@
+a
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hide-fork,
+.hide-code
+{
+    display: none!important;
+}
+
+.show-code
+{
+    display: block;
+}
+.user
+{
+    margin-right: 8px;
+}
+.user img
+{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.created_at
+{
+    color: gray;
+    font-size: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.fork
+{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.user-profile
+{
+    text-align: center;
+}
+.user-profile .user-info
+{
+    font-weight: bold;
+}
+.user-profile .login
+{
+    color: grey;
+}
