@@ -50,3 +50,8 @@ a
 {
     color: grey;
 }
+.buttons
+{
+    display: block;
+    height: 45px;
+}

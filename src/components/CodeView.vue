@@ -1,6 +1,8 @@
 <template>
   <div>
-    <button v-on:click='show=!show' class='btn btn-primary btn-sm' style='float:right;'>{{ show ? 'Hide':'Show' }} Source</button>
+    <div class='buttons'>
+      <button v-on:click='show=!show' class='btn btn-primary btn-sm' style='float:right;'>{{ show ? 'Hide':'Show' }} Source</button>
+    </div>
     <ssh-pre :class='show ? "show-code" : "hide-code"' reactive language="js" class='mt-2'>{{ code }}</ssh-pre>
   </div>
 </template>
